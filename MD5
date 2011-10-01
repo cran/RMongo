@@ -1,9 +1,9 @@
-2afcfdebb6cab6bc7d5650c2b6d5208f *DESCRIPTION
+5d2a54a3f505502af770e4f96edf469b *DESCRIPTION
 98fecf6491bcb1c3bf38af79ea2ab488 *NAMESPACE
 f7bf2d6192a657f1850cca805ddf220b *R/onLoad.R
-5afe65d332c67875d53319449cbebf7d *R/rmongo.R
-178bbe6e8430069438817fd5cd2efd5a *README
-a441fed57cc287debd574d3df4fc1bf8 *inst/java/r-mongo-scala-1.0-SNAPSHOT.jar
+d995d73d03572940b23a1a0873b3d611 *R/rmongo.R
+44539959d495aca28c076a10afd9a6e9 *README
+be3c6f014c9bd0e16e1d0351cf277301 *inst/java/r-mongo-scala-1.0-SNAPSHOT.jar
 5587647a59b61459fca2cbbfbe8e8569 *man/RMongo-class.Rd
 f96b781302a81b157b6cf59701d2bac6 *man/RMongo-package.Rd
 40895e6310e92d171bee55429fd23cda *man/dbAuthenticate-methods.Rd
@@ -13,5 +13,6 @@ a5bbbad5cff3f8f604d96ce0b9802c7a *man/dbGetQuerForKeys-methods.Rd
 aff57dd753257f4d9f97d6614dd29cd5 *man/dbInsertDocument-methods.Rd
 2f60f3ba342bc8626660127aa8f6f281 *man/dbShowCollections-methods.Rd
 2dcde807c0ae43aa16b371e21ae0e4b2 *man/mongoDbConnect.Rd
-33b29f519b3c387ef36416ef983d975e *tests/RMongo-Ex.R
-974cca98815e9adb12e98ed65e57c16e *tests/RMongo-Ex.Rout.save
+166249679482e206aa7ee5de4192e1c4 *patch.diff
+01ffe402777fe83ddc0d1c64b9285125 *tests/RMongo-Ex.R
+6f59428d8b9f988eb9c0d07433f256f6 *tests/RMongo-Ex.Rout.save

@@ -5,7 +5,7 @@
 setClass("RMongo", representation(javaMongo = "jobjRef"))
 
 mongoDbConnect <- function(dbName, host="127.0.0.1", port=27017){
-  rmongo <- new("RMongo", javaMongo = .jnew("com/quid/RMongo", dbName, host, as.integer(port)))
+  rmongo <- new("RMongo", javaMongo = .jnew("rmongo/RMongo", dbName, host, as.integer(port)))
   rmongo
 }
 
@@ -39,9 +39,9 @@ setMethod("dbGetQueryForKeys", signature(rmongo.object="RMongo", collection="cha
     results <- .jcall(rmongo.object@javaMongo, "S", "dbGetQuery", collection, query, keys, skip, limit)
     if(results == ""){
       data.frame()
-    }else{
+    }else{      
       con <- textConnection(results)
-      data.frame.results <- read.csv(con, sep="", stringsAsFactors=FALSE)
+      data.frame.results <- read.csv(con, sep="", stringsAsFactors=FALSE, quote="")
       close(con)
 
       data.frame.results
