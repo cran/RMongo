@@ -1,9 +1,9 @@
-b2fdb0c403b382b00329d42c7d7e8e60 *DESCRIPTION
-e29534fa1b4375e553b93b0c60cba226 *NAMESPACE
+bfde5620d21165acf8a8a059de9ce052 *DESCRIPTION
+c0df6205846bea7a2c8caf84d5a88d3c *NAMESPACE
 f7bf2d6192a657f1850cca805ddf220b *R/onLoad.R
-2d0a00a3d95224841ff9ef59e3a09f6a *R/rmongo.R
-8369c21188168c927dc38610a21617a6 *README
-f9fd13de86b803c51347d7d2f80aa098 *inst/java/r-mongo-scala-1.0-SNAPSHOT.jar
+26f77f917f538214920ada821918c92a *R/rmongo.R
+2722462b53848a93a0e7ea3f78cad206 *README
+80b63d29fc9ad262ed6df630a720da2e *inst/java/r-mongo-scala-1.0-SNAPSHOT.jar
 7a26f5a1bcb1d7dbf6817c2f17d2fecc *man/RMongo-class.Rd
 f96b781302a81b157b6cf59701d2bac6 *man/RMongo-package.Rd
 a9037a6b56b3ce7cd68964660473b170 *man/dbAggregate-methods.Rd
@@ -14,7 +14,9 @@ a5529acf54f52c714d6bac8d2bd1c913 *man/dbGetDistinct-methods.Rd
 302da59dd9f7516ea373b5c7521cb7e1 *man/dbGetQueryForKeys-methods.Rd
 aff57dd753257f4d9f97d6614dd29cd5 *man/dbInsertDocument-methods.Rd
 ffcda8aa7ffe6f50ffebc1bc9db9bc0f *man/dbRemoveQuery-methods.Rd
+857dca5db6ac99ed51bfc7d9df98fe70 *man/dbSetWriteConcern-methods.Rd
 2f60f3ba342bc8626660127aa8f6f281 *man/dbShowCollections-methods.Rd
 2dcde807c0ae43aa16b371e21ae0e4b2 *man/mongoDbConnect.Rd
-0247011c079ab4faf780378079a2dcb8 *tests/RMongo-Ex.R
-6f59428d8b9f988eb9c0d07433f256f6 *tests/RMongo-Ex.Rout.save
+38b1adc1cf406ca6794b4e74f9ac96fe *man/mongoDbReplicaSetConnect.Rd
+5f8a15f323969234fb83d11c7abb99fa *tests/RMongo-Ex.R
+d69f44fbdc2a0068c95c25e584e156f4 *tests/RMongo-Ex.Rout.save
